@@ -1,0 +1,23 @@
+# Python virtual environment
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Pytest cache
+.pytest_cache/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Runtime-generated telemetry files
+data/uploads/*
+data/results/*
+
+# Preserve empty runtime directories
+!data/uploads/.gitkeep
+!data/results/.gitkeep
